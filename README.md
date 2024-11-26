@@ -53,13 +53,26 @@ I had to uninstall the following:
 - Press the update button multiple times until it stops spitting updates, I had to press it three times before windows decided that it is now fully up to date
 - Restart after each step
 
+ 
+### Visual changes
+- Dark theme
+- Taskbar settings, disable widgets and task view. Also set search icon only
+
+### Brave setup
+- Set to open a new tab on startup and set new tab to blank page
+- Search engine set to google
+- Hide wallet, sidebar, leo AI and VPN sidebar button
+- Rightclick address bar: always show full address
+- Under appearance set: show bookmarks bar always
+
+
 
 
 ## Things to do
-- [ ] Update system
-- [ ] Remove default bloatware
-- [ ] Browser
-- [ ] Graphics Drivers
+- [x] Update system
+- [x] Remove default bloatware
+- [x] Browser
+- [x] Graphics Drivers
 - [ ] Git
 - [ ] ssh-keygen
 - [ ] Vim
