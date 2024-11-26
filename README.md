@@ -16,12 +16,44 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 
 I also want this to be a design blueprint for how somene's entire digital needs can be met, hence why I'll be listing what services I use for pretty much everything
 
-## Installing windows 11 with a local account
+## Windows 11 Setup Gen 1 Notes
+### Installing windows 11 with a local account
 SHIFT + F10 
 Then typing "oobe\bypassnro" worked for me (after unplugging ethernet etc)
 NOTE: Make sure all security questions are lowercase to avoid confusion when you have to recall them
 Also, see below if in doubt?
 https://answers.microsoft.com/en-us/insider/forum/all/set-up-windows-11-without-internet-oobebypassnro/4fc44554-b416-4ecb-8961-6f79fd55ae0f
+
+### Removing bloatware
+I had to uninstall the following:
+- Family
+- Feedback Hub
+- Mail and Calendar
+- Maps
+- Microsoft Clipchamp
+- Microsoft Bing Search
+- Microsoft OneDrive
+- Microsoft Teams
+- Microsoft Todo
+- OneNote
+- Outlook
+- People
+- Quick Assist
+- Skype???? 
+- Solitaire ???????????????
+- Sticky notes
+- Xbox
+- Xbox Live...
+- Remote Desktop Connection
+- Microsoft News
+- Microsoft 365
+- LinkedIn
+
+### Other notes
+- Press the update button multiple times until it stops spitting updates, I had to press it three times before windows decided that it is now fully up to date
+- Restart after each step
+
+
 
 ## Things to do
 - [ ] Update system
