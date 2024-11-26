@@ -26,6 +26,7 @@ https://answers.microsoft.com/en-us/insider/forum/all/set-up-windows-11-without-
 ## Things to do
 - [ ] Update system
 - [ ] Remove default bloatware
+- [ ] Browser
 - [ ] Graphics Drivers
 - [ ] Git
 - [ ] ssh-keygen
