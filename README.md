@@ -16,6 +16,44 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 
 I also want this to be a design blueprint for how somene's entire digital needs can be met, hence why I'll be listing what services I use for pretty much everything
 
+## Things to do
+- [x] Update system
+- [x] Remove default bloatware
+- [x] Browser
+- [x] Graphics Drivers
+- [x] Git
+- [ ] ssh-keygen
+- [ ] Vim
+- [ ] GlazeWM
+
+List of software we want:
+- [ ] Git
+- [x] Brave
+- [ ] Firefox
+- [ ] Steam
+- [ ] GOG
+- [ ] Battlenet
+- [ ] Discord
+- [ ] AMD Adrenaline
+- [ ] Razer Synapse
+- [ ] VSCode
+- [ ] GIMP
+- [ ] Path of Building
+- [ ] Awakened POE Trade
+- [ ] Vim
+- [ ] Python
+- [ ] OnlyOffice
+- [ ] KeePassXC
+
+Current Solution Choices:
+- Email = Proton 
+- Browser = Brave & Firefox (for DRM content)
+- Search Engine = Google (Let's not delude ourselves, the only engine that gives good search results)
+- IDE = VSCode (with VIM plugin)
+- VPN = protonVPN
+- Calendar = Proton 
+- Cloud Storage = Proton
+
 ## Windows 11 Setup Gen 1 Notes
 ### Installing windows 11 with a local account
 SHIFT + F10 
@@ -68,44 +106,6 @@ I had to uninstall the following:
 
 
 
-## Things to do
-- [x] Update system
-- [x] Remove default bloatware
-- [x] Browser
-- [x] Graphics Drivers
-- [x] Git
-- [ ] ssh-keygen
-- [ ] Vim
-- [ ] GlazeWM
-
-List of software we want:
-- [ ] Git
-- [x] Brave
-- [ ] Firefox
-- [ ] Steam
-- [ ] GOG
-- [ ] Battlenet
-- [ ] Discord
-- [ ] AMD Adrenaline
-- [ ] Razer Synapse
-- [ ] VSCode
-- [ ] GIMP
-- [ ] Path of Building
-- [ ] Awakened POE Trade
-- [ ] Vim
-- [ ] Python
-- [ ] OnlyOffice
-- [ ] KeePassXC
-
-Current Solution Choices:
-- Email = Proton 
-- Browser = Brave & Firefox (for DRM content)
-- Search Engine = Google (Let's not delude ourselves, the only engine that gives good search results)
-- IDE = VSCode (with VIM plugin)
-- VPN = protonVPN
-- Calendar = Proton 
-- Cloud Storage = Proton
-
 
 
 
@@ -113,3 +113,6 @@ LIBRARY:
 
 ### Could be useful for the vim installation
 https://shayallenhill.com/vim-in-windows#install-vim
+### Local account
+https://answers.microsoft.com/en-us/insider/forum/all/set-up-windows-11-without-internet-oobebypassnro/4fc44554-b416-4ecb-8961-6f79fd55ae0f
+
