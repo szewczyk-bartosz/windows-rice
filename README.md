@@ -24,8 +24,8 @@ Also, see below if in doubt?
 https://answers.microsoft.com/en-us/insider/forum/all/set-up-windows-11-without-internet-oobebypassnro/4fc44554-b416-4ecb-8961-6f79fd55ae0f
 
 ## Things to do
-- [ ] Remove default bloatware
 - [ ] Update system
+- [ ] Remove default bloatware
 - [ ] Graphics Drivers
 - [ ] Git
 - [ ] ssh-keygen
