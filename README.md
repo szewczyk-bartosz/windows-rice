@@ -16,6 +16,11 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 
 I also want this to be a design blueprint for how somene's entire digital needs can be met, hence why I'll be listing what services I use for pretty much everything
 
+## Installing windows 11 with a local account
+SHIFT + F10 
+Then typing "oobe\bypassnro" worked for me (after unplugging ethernet etc)
+NOTE: Make sure all security questions are lowercase to avoid confusion when you have to recall them
+
 ## Things to do
 - [ ] Remove default bloatware
 - [ ] Update system
