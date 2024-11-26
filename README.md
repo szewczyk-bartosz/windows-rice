@@ -37,11 +37,12 @@ List of software we want:
 - [ ] Brave
 - [ ] Firefox
 - [ ] Steam
+- [ ] GOG
+- [ ] Battlenet
 - [ ] Discord
 - [ ] AMD Adrenaline
 - [ ] Razer Synapse
 - [ ] VSCode
-- [ ] GOG
 - [ ] GIMP
 - [ ] Path of Building
 - [ ] Awakened POE Trade
