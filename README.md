@@ -15,10 +15,31 @@ That being said, I don't think I could ever go back to the default windows exper
 Within this repo, I hope to document my journey of creating a linux tiling-wm-like experience whilst combining it with the ease of use and out-out-the-boxness of windows
 
 ## Things to do
+- [ ] Remove default bloatware
 - [ ] Set up a nice terminal
 - [ ] Vim
 - [ ] Git
 - [ ] GlazeWM
+
+List of software we want:
+- [ ] Git
+- [ ] Brave
+- [ ] Firefox
+- [ ] Steam
+- [ ] Discord
+- [ ] AMD Adrenaline
+- [ ] Razer Synapse
+- [ ] VSCode
+- [ ] GOG
+- [ ] GIMP
+- [ ] Path of Building
+- [ ] Awakened POE Trade
+- [ ] Vim
+- [ ] Python
+- [ ] OnlyOffice
+- [ ] KeePassXC
+
+
 
 LIBRARY:
 
