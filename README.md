@@ -16,9 +16,9 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 
 ## Things to do
 - [ ] Remove default bloatware
-- [ ] Set up a nice terminal
-- [ ] Vim
 - [ ] Git
+- [ ] ssh-keygen
+- [ ] Vim
 - [ ] GlazeWM
 
 List of software we want:
