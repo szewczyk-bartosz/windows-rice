@@ -6,7 +6,7 @@ After spending a long time trying to set up different linux distros, window mana
 - Where do I set my themes again
 - icons not working
 - more networking problems
-- can't run gmaes that use EasyAntiCheat
+- can't run games that use EasyAntiCheat
 
 I wanted a computer that just works
 
@@ -20,3 +20,7 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 - [ ] Git
 - [ ] GlazeWM
 
+LIBRARY:
+
+### Could be useful for the vim installation
+https://shayallenhill.com/vim-in-windows#install-vim
