@@ -80,7 +80,7 @@ I had to uninstall the following:
 
 List of software we want:
 - [ ] Git
-- [ ] Brave
+- [x] Brave
 - [ ] Firefox
 - [ ] Steam
 - [ ] GOG
