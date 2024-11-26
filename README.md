@@ -43,6 +43,16 @@ List of software we want:
 - [ ] OnlyOffice
 - [ ] KeePassXC
 
+Current Solution Choices:
+- Email = Proton 
+- Browser = Brave & Firefox (for DRM content)
+- Search Engine = Google (Let's not delude ourselves, the only engine that gives good search results)
+- IDE = VSCode (with VIM plugin)
+- VPN = protonVPN
+- Calendar = Proton 
+- Cloud Storage = Proton
+
+
 
 
 LIBRARY:
