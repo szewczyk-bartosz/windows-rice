@@ -20,6 +20,8 @@ I also want this to be a design blueprint for how somene's entire digital needs 
 SHIFT + F10 
 Then typing "oobe\bypassnro" worked for me (after unplugging ethernet etc)
 NOTE: Make sure all security questions are lowercase to avoid confusion when you have to recall them
+Also, see below if in doubt?
+https://answers.microsoft.com/en-us/insider/forum/all/set-up-windows-11-without-internet-oobebypassnro/4fc44554-b416-4ecb-8961-6f79fd55ae0f
 
 ## Things to do
 - [ ] Remove default bloatware
