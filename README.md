@@ -22,7 +22,7 @@ I also want this to be a design blueprint for how somene's entire digital needs 
 - [x] Browser
 - [x] Graphics Drivers
 - [x] Git
-- [ ] ssh-keygen
+- [x] ssh-keygen
 - [ ] Vim
 - [ ] GlazeWM
 
