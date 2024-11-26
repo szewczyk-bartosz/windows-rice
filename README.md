@@ -14,6 +14,8 @@ That being said, I don't think I could ever go back to the default windows exper
 
 Within this repo, I hope to document my journey of creating a linux tiling-wm-like experience whilst combining it with the ease of use and out-out-the-boxness of windows
 
+I also want this to be a design blueprint for how somene's entire digital needs can be met, hence why I'll be listing what services I use for pretty much everything
+
 ## Things to do
 - [ ] Remove default bloatware
 - [ ] Update system
