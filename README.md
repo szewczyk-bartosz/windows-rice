@@ -15,8 +15,8 @@ That being said, I don't think I could ever go back to the default windows exper
 Within this repo, I hope to document my journey of creating a linux tiling-wm-like experience whilst combining it with the ease of use and out-out-the-boxness of windows
 
 ## Things to do
-[ ] Set up a nice terminal
-[ ] Vim
-[ ] Git
-[ ] GlazeWM
+- [ ] Set up a nice terminal
+- [ ] Vim
+- [ ] Git
+- [ ] GlazeWM
 
