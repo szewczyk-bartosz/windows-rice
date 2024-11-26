@@ -16,6 +16,8 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 
 ## Things to do
 - [ ] Remove default bloatware
+- [ ] Update system
+- [ ] Graphics Drivers
 - [ ] Git
 - [ ] ssh-keygen
 - [ ] Vim
