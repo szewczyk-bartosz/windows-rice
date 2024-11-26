@@ -103,6 +103,8 @@ I had to uninstall the following:
 - Rightclick address bar: always show full address
 - Under appearance set: show bookmarks bar always
 
+### Vim installation
+Just use the installer from the vim website
 
 
 
