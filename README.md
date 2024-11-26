@@ -73,7 +73,7 @@ I had to uninstall the following:
 - [x] Remove default bloatware
 - [x] Browser
 - [x] Graphics Drivers
-- [ ] Git
+- [x] Git
 - [ ] ssh-keygen
 - [ ] Vim
 - [ ] GlazeWM
