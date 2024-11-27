@@ -30,25 +30,24 @@ I also want this to be a design blueprint for how somene's entire digital needs 
 List of software we want:
 - [x] Git
 - [x] Brave
-- [ ] Firefox
-- [ ] Steam
-- [ ] GOG
-- [ ] Battlenet
-- [ ] Discord
-- [ ] AMD Adrenaline
-- [ ] Razer Synapse
-- [ ] VSCode
-- [ ] GIMP
+- [x] Steam
+- [x] GOG
+- [x] Battlenet
+- [x] Discord
+- [x] AMD Adrenaline
+- [x] Razer Synapse
+- [x] VSCode
+- [x] GIMP
 - [ ] Path of Building
 - [ ] Awakened POE Trade
 - [x] Vim
-- [ ] Python
+- [x] Python
 - [ ] OnlyOffice
 - [x] KeePassXC
 
 Current Solution Choices:
 - Email = Proton 
-- Browser = Brave & Firefox (for DRM content)
+- Browser = Brave & Edge for DRM stuff
 - Search Engine = Google (Let's not delude ourselves, the only engine that gives good search results)
 - IDE = VSCode (with VIM plugin)
 - VPN = protonVPN
