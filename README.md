@@ -16,6 +16,11 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 
 I also want this to be a design blueprint for how somene's entire digital needs can be met, hence why I'll be listing what services I use for pretty much everything
 
+## Current TODOs
+- [ ] rice out zebar
+- [ ] rice out flow launcher
+- [ ] system color generation from wallpaper
+
 ## Things to do
 - [x] Update system
 - [x] Remove default bloatware
