@@ -47,7 +47,7 @@ List of software we want:
 - [ ] Awakened POE Trade
 - [x] Vim
 - [x] Python
-- [ ] OnlyOffice
+- [x] OnlyOffice
 - [x] KeePassXC
 
 Current Solution Choices:
