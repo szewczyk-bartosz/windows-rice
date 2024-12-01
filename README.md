@@ -16,6 +16,30 @@ Within this repo, I hope to document my journey of creating a linux tiling-wm-li
 
 I also want this to be a design blueprint for how somene's entire digital needs can be met, hence why I'll be listing what services I use for pretty much everything
 
+## Baldur's gate 3 modding
+Mod manager:
+https://github.com/LaughingLeader/BG3ModManager
+
+Open, run, set path to bg3
+
+
+Get script extender:
+https://www.nexusmods.com/baldursgate3/mods/2172?tab=description
+
+Get Mod fixer:
+https://www.nexusmods.com/baldursgate3/mods/141
+
+Improved UI (apparentally this is a pre-requisite for a lot of mods):
+https://www.nexusmods.com/baldursgate3/mods/366
+
+No-ilithid veins (putting the link here cause I don't mind it o:
+https://www.nexusmods.com/baldursgate3/mods/773
+
+Encountered a problem - the mod manager thinks I don't have the script extender installed. I even tried installing it through the installer and it still hasn't fixed it...
+
+![Screenshot](imgs/bg3modmanager-error.png "Error screenshot")
+
+
 ## Current TODOs
 - [ ] rice out zebar
 - [ ] rice out flow launcher
