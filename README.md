@@ -41,12 +41,55 @@ Encountered a problem - the mod manager thinks I don't have the script extender 
 
 #### SOLUTION: You need to run the game at least once for the script extender installation to be completed
 
+NOTE: Played a bit with it, highly recommend the mod that unlocks the 5e spells btw! :)
+https://www.nexusmods.com/baldursgate3/mods/125
+
 
 
 ## Current TODOs
 - [ ] rice out zebar
 - [ ] rice out flow launcher
+- [ ] review glazeWM keybinds
 - [ ] system color generation from wallpaper
+
+## Design philosophy
+I want to quickly explain the design philosophy behind the UI that I am trying to build here
+
+1. Keep things simple - no excessive binds, no excessive info on the screen
+2. Colour coordination - every part I consider to be the base UI of the computer should colour coordinate with your wallpaper automatically
+3. Rounded corners <3
+
+That's it
+
+Let's rice
+
+## Ricing zebar
+
+Note: Idk if this is a real thing cause I can't find documentation for zebar but it seems you have to have the config files under ./starter/ otherwise things break? and the error msgs in zebar are not easy to decipher to me, maybe im stupid who knows
+
+I will be providing two variants:
+
+1. A classic bar
+2. 2 floating bars, left and right
+
+Most of the functionality I want is already there
+
+Will just edit some stuff, move things around
+
+The only big thing I want to add is animations onto the changing of workspaces, I also want to consider some sort of shape changing effect
+
+Bar will display:
+1. Workspaces
+2. Time and Date
+3. Ram usage
+4. Tiling direction
+
+
+All else is bloat :O
+
+
+ok, so at some point I should actually upload my config files, all I wanna say, is that we are cooking
+
 
 ## Things to do
 - [x] Update system
