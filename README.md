@@ -39,6 +39,9 @@ Encountered a problem - the mod manager thinks I don't have the script extender 
 
 ![Screenshot](imgs/bg3modmanager-error.png "Error screenshot")
 
+#### SOLUTION: You need to run the game at least once for the script extender installation to be completed
+
+
 
 ## Current TODOs
 - [ ] rice out zebar
@@ -162,8 +165,35 @@ Installed flow launcher and it is amazing
 Make sure the binds in GlazeWM don't collide with Flow or it wont work (they do by default)
 
 
+### VSCode Customisation
+
+Vim Plugin:
+https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+
+The main change I care about is that I exit input mode with "jk" by putting "inoremap jk <ESC>" into my vimrc file, if you want this as well do the below:
+
+Open your settings JSON file:
+1. CTRL + SHIFT + P
+2. User Settings JSON
+![Screenshot](imgs/vscodejson.png "Screenshot")
 
 
+This should open your user settings file, put the code below into the curly brackets:
+
+```JSON
+"vim.insertModeKeyBindings": [
+    {
+        "before": ["j", "k"],
+        "after": ["<ESC>"]
+    }
+]
+"vim.handleKeys": {
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-c>": false,
+    "<C-v>": false
+}
+```
 
 LIBRARY:
 
