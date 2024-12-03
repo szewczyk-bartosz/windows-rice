@@ -47,7 +47,7 @@ https://www.nexusmods.com/baldursgate3/mods/125
 
 
 ## Current TODOs
-- [ ] rice out zebar
+- [x] rice out zebar
 - [ ] rice out flow launcher
 - [ ] review glazeWM keybinds
 - [ ] system color generation from wallpaper
@@ -91,6 +91,25 @@ All else is bloat :O
 ok, so at some point I should actually upload my config files, all I wanna say, is that we are cooking
 
 
+## Colorscheme sync
+
+Needed to install pywal
+
+did it using
+
+pip install pywal
+
+Something I learned, is to make sure that pip and pip3 link to the same python version (which they do in a lot of cases) just run them with the `--version` flag
+
+
+We need imagemagick
+
+https://imagemagick.org/script/download.php
+
+
+## Things installed in pip
+- [x] pywal
+
 ## Things to do
 - [x] Update system
 - [x] Remove default bloatware
@@ -115,6 +134,7 @@ List of software we want:
 - [x] GIMP
 - [ ] Path of Building
 - [ ] Awakened POE Trade
+- [x] Wiztree
 - [x] Vim
 - [x] Python
 - [x] OnlyOffice
