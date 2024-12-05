@@ -94,6 +94,11 @@ ok, so at some point I should actually upload my config files, all I wanna say, 
 
 Cooking continues... I aint gonna lie this is turning out really well, will commit publicly once I clean up the code
 
+
+Disable windows casting shadows so they don't go over your bar:
+
+Advanced System Settings > Advanced > Performance > Settings... > Untick "Show shadows under windows"
+
 ## Colorscheme sync
 
 Needed to install pywal
