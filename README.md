@@ -49,7 +49,8 @@ https://www.nexusmods.com/baldursgate3/mods/125
 ## Current TODOs
 - [x] rice out zebar
 - [ ] rice out flow launcher
-    print("ok gonna process", str(img_path))
+- [ ] Nicer workspace removal animation (more smooth)
+- [ ] Algorithmically optimised palette (for contrast)
 - [ ] review glazeWM keybinds
 - [x] system color generation from wallpaper
 
