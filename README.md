@@ -49,8 +49,9 @@ https://www.nexusmods.com/baldursgate3/mods/125
 ## Current TODOs
 - [x] rice out zebar
 - [ ] rice out flow launcher
+    print("ok gonna process", str(img_path))
 - [ ] review glazeWM keybinds
-- [ ] system color generation from wallpaper
+- [x] system color generation from wallpaper
 
 ## Design philosophy
 I want to quickly explain the design philosophy behind the UI that I am trying to build here
@@ -90,6 +91,7 @@ All else is bloat :O
 
 ok, so at some point I should actually upload my config files, all I wanna say, is that we are cooking
 
+Cooking continues... I aint gonna lie this is turning out really well, will commit publicly once I clean up the code
 
 ## Colorscheme sync
 
