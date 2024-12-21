@@ -4,7 +4,7 @@ TLDR; Linux takes too much effort and has limited compatibility in places - let'
 
 
 # Let's set up windows 11
-1. [Windows 11 Install](##1:-windows-11-install)
+1. [Windows 11 Install](#1:-windows-11-install)
 2. [Privacy Changes](##2:-privacy)
 3. [Remove bloat](##3:-removing-bloatware)
 4. [Update system](##4:-update-system)
@@ -17,7 +17,7 @@ TLDR; Linux takes too much effort and has limited compatibility in places - let'
 11. FlowLauncher 
 12. GlazeWM
 
-## 1: Windows 11 Install
+# 1: Windows 11 Install
 SHIFT + F10 
 Then typing "oobe\bypassnro" worked for me (after unplugging ethernet etc)
 NOTE: Make sure all security questions are lowercase to avoid confusion when you have to recall them
