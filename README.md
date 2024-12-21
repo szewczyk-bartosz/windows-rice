@@ -2,30 +2,38 @@
 
 TLDR; Linux takes too much effort and has limited compatibility in places - let's make Windows a little more homey instead
 
+DISCLAIMER: I make no claims about the privacy, security or stability of a system set up according to my instructions, I provide these to you with best intentions and to help people out however I can't make any guarantees and follow these instructions at your own risk. That being said, I set up all my computers using this and never had any problems
 
 # Let's set up windows 11
 1. [Windows 11 Install](#1-windows-11-install)
-2. [Privacy Changes](##2:-privacy)
-3. [Remove bloat](##3:-removing-bloatware)
-4. [Update system](##4:-update-system)
-5. [Visual changes](##5:-visual-changes)
-6. Browser
-7. Graphics drivers
-8. Git
-9. SSH-Keygen
-10. VIM
-11. FlowLauncher 
-12. GlazeWM
+2. [Privacy Changes](##2-privacy)
+3. [Remove bloat](##3-removing-bloatware)
+4. [Update system](##4-update-system)
+5. [Visual changes](##5-visual-changes)
+6. [Browser](##6-browser)
+7. [Graphics drivers](##7-graphic-drivers)
+8. [Git](##8-git)
+9. [SSH-Keygen](##9-ssh-keys)
+10. [VIM](##10-vim)
+11. [Flow Launcher](##11-flow-launcher)
+12. [ImageMagick](##12-ricing-prerequisites)
+13. [GlazeWM](##13-glazewm)
+14. [Colour Sync](##14-colour-sync)
+15. [Installing software](##15-software-install)
 
 # 1: Windows 11 Install
 SHIFT + F10 
 Then typing "oobe\bypassnro" worked for me (after unplugging ethernet etc)
-NOTE: Make sure all security questions are lowercase to avoid confusion when you have to recall them
-Also, see below if in doubt?
+NOTE: My recommendation is that all security questions are lowercase to avoid confusion when you have to recall them (not sure if they are case sensitive but why take the risk)
+Also, see below if in doubt:
 https://answers.microsoft.com/en-us/insider/forum/all/set-up-windows-11-without-internet-oobebypassnro/4fc44554-b416-4ecb-8961-6f79fd55ae0f
 
 ## 2: Privacy
 ! MAKE SURE YOU REMOVE THE ACTIVITY TRACKER IN PRIVACY SETTINGS !
+![Screenshot](imgs/activity-history-screenshot.png "Showcase")
+
+Go through all the sections and review them in the settings as per your requirements and preferences
+![Screenshot](imgs/permission-privacy-settings.png "Showcase")
 
 ## 3: Removing bloatware
 I had to uninstall the following:
@@ -56,29 +64,37 @@ I had to uninstall the following:
 - Press the update button multiple times until it stops spitting updates, I had to press it three times before windows decided that it is now fully up to date
 - Restart after each step
 
-## Visual changes
+## 5: Visual changes
 - Dark theme
 - Taskbar settings, disable widgets and task view. Also set search icon only. Hide Taskbar 
 
-## Browser
+## 6: Browser
 Install Firefox and Brave browser
 At the time of writing this, links below are correct:
 - Brave: https://brave.com/
 - Firefox: https://www.mozilla.org/
 
-## Graphics drivers
+#### Within brave settings
+- Set to open a new tab on startup and set new tab to blank page
+- Search engine set to google
+- Hide wallet, sidebar, leo AI and VPN sidebar button
+- Rightclick address bar: always show full address
+- Under appearance set: show bookmarks bar always
+
+
+## 7: Graphics drivers
 Simply download these from AMD / Nvidia's website
 
-## Get git
+## 8: Get git
 Link at the time of writing: https://git-scm.com/
 
 Simply download and follow the installation steps
 
 
-## SSH Keys
+## 9: SSH Keys
 use ssh-keygen to generate ssh keys to be used with your github account
 
-## VIM - Our lord and saviour
+## 10: VIM - Our lord and saviour
 
 Install vim from the website (link correct at time of writing)
 https://www.vim.org/
@@ -103,35 +119,41 @@ set backup
 
 We will set up our vscode config later
 
+## 11: Flow Launcher
+Install the system version, do not go with the portable one as I am not sure if my theming will work with it
 
-
-
-
-# Coloursync notes
-
-Needed to install pywal
-
-did it using
-
-pip install pywal
-
-Something I learned, is to make sure that pip and pip3 link to the same python version (which they do in a lot of cases) just run them with the `--version` flag
-
-Disable windows casting shadows so they don't go over your bar:
-
-Advanced System Settings > Advanced > Performance > Settings... > Untick "Show shadows under windows"
-
-We need imagemagick
+```
+winget install "Flow Launcher"
+```
+## 12: Ricing Prerequisites
+We need imagemagick, pywal and will need to install UbuntuMono Nerd Font
 https://imagemagick.org/script/download.php
 
+Pywal:
+```
+pip install pywal
+```
 
-# Things installed in pip
-- [x] pywal
+UbuntuMono Nerd Font:
+https://www.nerdfonts.com/font-downloads
 
-# Things to do
-- [x] GlazeWM
-- [x] Flow Launcher
+(as per usual, links correct at time of writing)
 
+## 13: GlazeWM
+```
+winget install GlazeWM
+```
+## 14: Colour Sync
+This is where it gets a little bit complicated, since the script I wrote to do all this is not finished yet, so you are going to have to just clone this repo (using git we installed earlier) and run the main.py file using python
+
+Pass it one argument (the image to use for generating colours)
+
+If you want to just scrape the colours from wallpaper but not use it for your system then pass the appropriate flag. Pass --help or -h to see flags
+## 15: Software Install
+
+This section is yet to be completed,  I find it difficult to decide whether to split the stuff we need into categories / do I include stuff that was already installed in previous steps?
+
+Optional:
 List of software we want:
 - [x] Git
 - [x] Brave
@@ -150,6 +172,24 @@ List of software we want:
 - [x] OnlyOffice
 - [x] KeePassXC
 
+
+
+
+# Coloursync notes
+
+
+Something I learned, is to make sure that pip and pip3 link to the same python version (which they do in a lot of cases) just run them with the `--version` flag
+
+Disable windows casting shadows so they don't go over your bar:
+
+Advanced System Settings > Advanced > Performance > Settings... > Untick "Show shadows under windows"
+
+We need imagemagick
+https://imagemagick.org/script/download.php
+
+
+# Solutions
+
 Current Solution Choices:
 - Email = Proton 
 - Browser = Brave & Firefox for DRM stuff
@@ -159,45 +199,7 @@ Current Solution Choices:
 - Calendar = Proton 
 - Cloud Storage = Proton
 
-
- 
-
-### Brave setup
-- Set to open a new tab on startup and set new tab to blank page
-- Search engine set to google
-- Hide wallet, sidebar, leo AI and VPN sidebar button
-- Rightclick address bar: always show full address
-- Under appearance set: show bookmarks bar always
-
-### Vim installation
-Just use the installer from the vim website
-
-### GlazeWM and the bar
-All installed using winget as per instructions on the GlazeWM github page
-
-Very good default keybinds so no complaints
-
-Will need to edit the config a bit so that that we focus on the window with cursour on it and also so cursour snaps to the focused window on focus change.
-
-Made necessary edits in the config, will need to test how it works with games to decide whether to rebind alt-tab to swap between workspaces
-
-
-### Configuring zebar
-
-to be configured...
-
-I need vscode to do this tbh
-
-install nerdfonts too btw
-
-### App Launcher
-
-Installed flow launcher and it is amazing
-
-Make sure the binds in GlazeWM don't collide with Flow or it wont work (they do by default)
-
-
-### VSCode Customisation
+# VSCode Customisation
 
 Vim Plugin:
 https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
