@@ -4,30 +4,29 @@ TLDR; Linux takes too much effort and has limited compatibility in places - let'
 
 
 # Let's set up windows 11
-1. [Windows 11 Install](##1:-windows-11-install)
-2. [Privacy Changes](##2:-privacy)
-3. [Remove bloat](##3:-removing-bloatware)
-4. [Update system](##4:-update-system)
-5. [Visual changes](##5:-visual-changes)
+1. Windows 11 local account install
+2. Privacy changes
+3. Remove bloat
+4. Update system
+5. Visual changes
 6. Browser
 7. Graphics drivers
 8. Git
 9. SSH-Keygen
 10. VIM
 11. FlowLauncher 
-12. GlazeWM
 
-## 1: Windows 11 Install
+## Installing windows 11 with a local account
 SHIFT + F10 
 Then typing "oobe\bypassnro" worked for me (after unplugging ethernet etc)
 NOTE: Make sure all security questions are lowercase to avoid confusion when you have to recall them
 Also, see below if in doubt?
 https://answers.microsoft.com/en-us/insider/forum/all/set-up-windows-11-without-internet-oobebypassnro/4fc44554-b416-4ecb-8961-6f79fd55ae0f
 
-## 2: Privacy
+## Privacy
 ! MAKE SURE YOU REMOVE THE ACTIVITY TRACKER IN PRIVACY SETTINGS !
 
-## 3: Removing bloatware
+## Removing bloatware
 I had to uninstall the following:
 - Family
 - Feedback Hub
@@ -52,7 +51,7 @@ I had to uninstall the following:
 - Microsoft 365
 - LinkedIn
 
-## 4: Update system
+## Update system
 - Press the update button multiple times until it stops spitting updates, I had to press it three times before windows decided that it is now fully up to date
 - Restart after each step
 
