@@ -140,6 +140,7 @@ List of software we want:
 - [x] Razer Synapse
 - [x] VSCode
 - [x] GIMP
+- [x] OBS
 - [ ] Path of Building
 - [ ] Awakened POE Trade
 - [x] Wiztree
