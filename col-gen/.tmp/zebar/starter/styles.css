@@ -26,12 +26,12 @@ body,
   /*border-bottom: 1px solid rgb(255 255 255 / 5%); */
   /*background: linear-gradient(rgb(0 0 0 / 90%), rgb(5 2 20 / 85%));*/
   /*background: linear-gradient(rgb(33, 33, 33), rgb(49, 49, 49));*/
-  --bgcolor1: #046D74;  /* this is the main color applied to bar background*/
-  --bgcolor2: #07857C;  /* this is the color applied to inside of inactive workspaces*/
-  --bgcolor3: #068E8C;  /* this is the color applied to inside of active workspaces*/
-  --bordercolor1: #7bd4d8;  /* this is the color applied to the borders of inactive workspaces*/
-  --bordercolor2: #7bd4d8;  /* this is the color applied to the borders of active workspaces*/
-  --text-color: #7bd4d8;
+  --bgcolor1: #6E6E76;  /* this is the main color applied to bar background*/
+  --bgcolor2: #7C7C82;  /* this is the color applied to inside of inactive workspaces*/
+  --bgcolor3: #C0BFA9;  /* this is the color applied to inside of active workspaces*/
+  --bordercolor1: #f0f0e0;  /* this is the color applied to the borders of inactive workspaces*/
+  --bordercolor2: #f0f0e0;  /* this is the color applied to the borders of active workspaces*/
+  --text-color: #f0f0e0;
   --barcolor: rgba(0, 0, 0, 0.234); /* the color applied to the general bar*/
   --colname: rgb(243, 151, 108);  /* this is a placeholder*/
   color: var(--text-color);
