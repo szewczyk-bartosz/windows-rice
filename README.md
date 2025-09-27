@@ -1,6 +1,6 @@
-# Windows Rice - a heurisitc take on the desktop
+# Windows Rice - a heuristic take on the desktop
 
-TLDR; Linux takes too much effort and has limited compatibility in places - let's make Windows a little more homey instead
+TLDR; Linus is the main, but this is my setup for any windows machine I use
 
 DISCLAIMER: I make no claims about the privacy, security or stability of a system set up according to my instructions, I provide these to you with best intentions and to help people out however I can't make any guarantees and follow these instructions at your own risk. That being said, I set up all my computers using this and never had any problems
 
