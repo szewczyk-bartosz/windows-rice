@@ -57,7 +57,7 @@ if __name__ == "__main__":
         print("Adding center")
         subfolder_dir = os.path.join(zebar_dir, "full")
     if args.solid_bar:
-        print("Unimplemented, fuck you")
+        print("Unimplemented...")
         exit(-2)
 
     if os.path.exists(subfolder_dir):
